@@ -1,0 +1,137 @@
+- Shrine Collection Westland v1 w/ iSCW
+- Route use Amiibo
+- .link([Run w/ route]https://www.youtube.com/watch?v=yR7XSlWwSXM)
+- Great Plateau:
+    - SoR clip:
+       icon: location
+       color: white
+    - _Equipment::Weapon<Boko Spear>:
+        coord: [-942.9375,1959.75]
+    - _Equipment::Shield<Pot Lid>:
+        coord: [-952.875,1960.3125]
+    - _Material<6 Pepper>:
+        comment: 3 are mendatory for IST
+        coord: [-962.6875,1955.75]
+    - _Material<Seared Steal>:
+       coord: [-955.87, 237.42, 1948.86]
+    - _Material<3 Shroom>:
+        comment: Don't eat it
+        coord: [-959.1875,1964.6875]
+    - _Equipment::Weapon<Rusty Sword>:
+       coord: [-889.42, 213.33, 1907.73]  
+    - Talk to .npc(Zelda):
+        icon: zelda
+        coord: [-861.125,1950.875]
+    - _Equipment::Bow<Traveler's Bow>:
+        coord: [-832.125,1963.0625]
+        notes: .link([Shield clip] https://www.youtube.com/watch?v=oklKNwEPvYY)
+    - _Shrine::JaBaij:
+        comment: BLSS to it
+        notes: .link([Gamer Windbomb] https://www.youtube.com/shorts/mkCRV-NXqkw)
+    - _Material<Fairy>:
+       notes: Use rune amiibo for text and unuse amiibo and Blls to fairy and cut grass
+       comment: Warning Trigger void after Blss
+       movements:
+        - [-465.75,2060.75]
+        - [-343,2170]
+        - [-420.5,2116]
+    - Respawn SoR:
+       movements:
+         - to: [-336.5,2084.5]
+         - to: [-1022.5,1798.5]
+           warp: true       
+       icon: location
+       notes: Go to void
+    - _Material<Wood>:
+       notes: It's RNG for wood if 1 wood cut after before tree wb
+       coord: [-954,1880.625]
+    - _Material<Apple>:
+       notes: Takes 3 Apples
+       coord: [-954.29, 229.60, 1878.64]
+    - _Equipment::Bow<Ice Arrow>:
+       notes: Dont use before IST
+       coord: [-775.94, 174.80, 1561.83]
+    - _Equipment::Bow<Fire Arrows>:
+       notes: Takes Chest
+    - _Shrine::OmanAu:
+       notes: Square first to shrine
+    - _Tower::GreatPlateau:
+       notes: Blss to tower and wind bomb
+    - _Shrine::OwaDaim:
+        notes: Takes new sheild
+        movements:
+        - [-657.25,1492.625]
+        - [-827.75,2255.75]
+        - [-925.0625,2320.125]
+    - _Shrine::KehNamut:
+        movements:
+        - [-978.25,2286.375]
+        - [-1435.4375,1990.625]
+    - Paraglider:
+        coord: [-811.6875,1966.8125]
+        icon: king
+- IST:
+  - _Shrine::JeeNoh:
+     movements:
+      - [-804.7500891323107,1960.250267396932]
+      - [-1202,1780]
+      - [-1796,2432]
+     color: cyan
+     notes: After paraglider climb to the top of the totem pole then BLSS to shrine and wb in shrine
+  - _Shrine::KayNoh:
+     movements:
+      - [-2008,2178]
+      - [-2028.5,1921]
+      - [-2071,1758.5]
+      - [-2211,1718]
+      - [-2374.5,1852]
+      - [-2417.5,1918]
+      - [-2549,2049]
+      - [-2668,2218.5]
+      - [-2810,2304]
+     notes: WindBomb and mid air to setup BLLS and BLLS to shrine 
+  - IST:
+     notes: .link([IST instruction]https://ist.pistonite.app?v4=H4sIAAAAAAAAA41QMW7DMAzc9Yr7QIHKyVSgLwkyMBZjC1VMlZTi5PeFLC8dgnYheeKBd7qJCyxRYUwpBlYcIXoxN3HBAZkzDlhFAgZQbsBmxYArRX1uJI8s5RSq0udw3l-K0p0TK3AEqcpq8O-II7d2jcrYiZaZFB5arTzHRPCgBzv-rjFvk9GdXVDJTYdbbfrw3ZP7sFudMEsKv_Z-87qT_G7WOCVQSrhRYY2U7DRzCmeX4_j1VvPLC38T_mHjtfz2uyylD41xkdVcWDpYmbIs5urSU-nYKSeh4GwWaUFuKaPHta9-AMojK1jaAQAA)
+     coord: [-2805,2228.5]
+     icon: ist
+- Wasteland:
+  - _Shrine::DakoTah:
+     notes: WindBomb to shrine
+  - _Shrine::DaqoChisay:
+     notes: BLLS to shrine and wb in shrine
+  - Btb to Kuh Takkar:
+     notes: WindBomb to Bokoblin and after first BtB, BtB tu Kuh Takkar w/ moblin
+     movements:
+      - [-4132.90, 159.34, 2598.46]
+      - [-3793,1869.5]
+      - [-3778.90, 326.03, 1855.20]
+  - _Shrine::KuhTakkar:
+     notes: Finish Shrine just for iSCW use fire arrows for ice cube
+  - _Shrine::KemaZoos:
+     notes: BLLS to shrine
+  - _Shrine::ThoKayu:
+     notes BLLS to shrine
+  - _Shrine::HawaKoth:
+     notes: BLLS to Shrine
+  - _Shrine::MisaeSuma:
+     notes: Sheild CLip or ESC
+  - _Shrine::DilaMaag:
+     notes: BLSS and WindBomb to shrine
+  - _Warp::Shrine::KuhTakkar
+  - Setup Storage iSCW for Raqa Zunzo:
+     notes: Take Storage
+     icon: SCW
+  - _Shrine::RaqaZunzo:
+     notes: BLLS to shrine and ITB w/ amiibo
+  - _Warp::Shrine::KuhTakkar
+  - Setup iSCW to Korsh O'hu:
+     notes: Takes storage
+     icon: SCW
+  - _Shrine::KorshOhu:
+     notes: Use ITB w/ amiibo
+  - _Warp::Shrine::KuhTakkar
+  - Setup iSCW to Suma Sahma:
+     notes: Takes Storage
+     icon: SCW
+  - _Shrine::SumaSahma:
+     notes: Use ITB w/ amiibo

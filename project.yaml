@@ -1,0 +1,51 @@
+title: Shrine Collection Westland Original
+
+# The version of your route. There's no particular format here.
+# This will be displayed in the metadata in the settings dialog
+version: 4
+
+# This is the route itself. Here it points to the main.yaml file we created earlier
+route:
+  use: ./main.yaml
+
+# Extra configuration.
+# The project must define a map to compile properly.
+# For now, we will use the Breath of the Wild celer map maintained by Pistonight
+config:
+  - use: Pistonight/celer-presets/botw/full.yaml
+
+  - icons:
+      ist: https://icons.pistonite.org/icon/misc.apple.plus.633830.f0673a.633830.f0673a.633830.f0673a.png
+      fairy: https://icons.pistonite.org/icon/character.great_fairy.plus.f24c99.ffc0fa.f24c99.ffc0fa.f24c99.ffc0fa.png
+      goddess: https://icons.pistonite.org/icon/character.zelda.plus.f24c99.ffc0fa.f24c99.ffc0fa.f24c99.ffc0fa.png
+      SCW: https://icons.pistonite.org/icon/shrine.shrine.plus.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.ffffb5.png
+      camera: https://icons.pistonite.org/icon/rune.camera.none.568c28.c8e6af.568c28.c8e6af.568c28.c8e6af.png
+      yigahideout: https://icons.pistonite.org/icon/shrine.double_sword.none.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.ffffb5.png
+      kogha: https://icons.pistonite.org/icon/shrine.double_sword.none.f24c99.ffc0fa.f24c99.ffc0fa.f24c99.ffc0fa.png
+      treasure: https://icons.pistonite.org/icon/shrine.blessing.plus.f24c99.ffc0fa.f24c99.ffc0fa.f24c99.ffc0fa.png
+      tretralame: https://icons.pistonite.org/icon/misc.hammer.plus.cfa240.000000.cfa240.000000.cfa240.000000.png
+      dlc: https://icons.pistonite.org/icon/shrine.dlc_shrine.plus.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.ffffb5.png
+      mazkoshia: https://icons.pistonite.org/icon/character.maz_koshia.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+      
+      zelda: https://icons.pistonite.org/icon/character.zelda.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+      windbomb: https://icons.pistonite.org/icon/rune.round_bomb.circle.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+      sor: https://icons.pistonite.org/icon/location.sor.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+      horse: https://icons.pistonite.org/icon/misc.horse.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+      daruk: https://icons.pistonite.org/icon/character.daruk.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+      shrine-active: https://icons.pistonite.org/icon/shrine.shrine.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+      guardian: https://icons.pistonite.org/icon/misc.flux_construct.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+      ruta: https://icons.pistonite.org/icon/location.ruta.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+      blight: https://icons.pistonite.org/icon/character.ganon.none.f24c99.ffc0fa.f24c99.ffc0fa.f24c99.ffc0fa.png
+      claymore: https://icons.pistonite.org/icon/misc.hammer.none.333333.eeeeee.333333.eeeeee.333333.eeeeee.png
+      endura_food: https://icons.pistonite.org/icon/misc.apple.circle.cfa240.ffd700.8c5e28.fdfdfd.8c5e28.fdfdfd.png
+      molduga: https://icons.pistonite.org/icon/misc.monster.plus.333333.eeeeee.333333.eeeeee.333333.eeeeee.png
+      
+  - plugins:
+      - use: link
+      - use: variables 
+  
+  - tags:
+      active:
+        color: cyan
+        
+        
