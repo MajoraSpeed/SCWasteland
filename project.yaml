@@ -2,7 +2,7 @@ title: Shrine Collection Westland Original
 
 # The version of your route. There's no particular format here.
 # This will be displayed in the metadata in the settings dialog
-version: 4
+version: 2
 
 # This is the route itself. Here it points to the main.yaml file we created earlier
 route:
